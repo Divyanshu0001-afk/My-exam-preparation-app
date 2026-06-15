@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exam Prep Pro</title>
+    <!-- Tailwind CSS for styling -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Babel taaki aapka JSX code phone ke browser mein aaram se chal sake -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body class="bg-slate-50">
     <div id="root"></div>
-    <script type="module" src="/App-Integrated.jsx"></script>
+
+    <!-- Yahan humne type="text/babel" kiya hai taaki white screen na aaye -->
+    <script type="text/babel" src="/App-Integrated.jsx"></script>
   </body>
 </html>
+
